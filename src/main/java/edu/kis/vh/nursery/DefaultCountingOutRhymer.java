@@ -1,5 +1,5 @@
 package edu.kis.vh.nursery;
-
+//Renamed Class to DefaultCountingOutRhymer.
 public class DefaultCountingOutRhymer {
   //Renamed field NUMBERS to numbers.
   private final int[] numbers = new int[12];
