@@ -1,11 +1,13 @@
 package edu.kis.vh.nursery;
 //Renamed Class to DefaultCountingOutRhymer.
+
+//No unused setters.
 public class DefaultCountingOutRhymer {
   //Renamed field NUMBERS to numbers.
   //variable already final //KG
   private final int[] numbers = new int[12];
 
-  public int total = -1;
+  private int total = -1;
 
   public void countIn(int in) {
     if (!isFull()) {
@@ -33,5 +35,9 @@ public class DefaultCountingOutRhymer {
       return -1;
     }
     return numbers[total--];
+  }
+
+  public int getTotal() {
+    return total;
   }
 }
