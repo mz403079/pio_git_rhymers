@@ -1,5 +1,7 @@
 package edu.kis.vh.nursery;
 //Renamed Class to DefaultCountingOutRhymer.
+
+//No unused setters.
 public class DefaultCountingOutRhymer {
   //Renamed field NUMBERS to numbers.
   //variable already final //KG
