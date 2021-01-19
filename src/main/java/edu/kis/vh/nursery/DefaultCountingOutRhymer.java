@@ -3,6 +3,9 @@ package edu.kis.vh.nursery;
 
 //No unused setters.
 public class DefaultCountingOutRhymer {
+
+  public static final int FULL = 11;
+  public static final int CALL_CHECK = -1;
   //Renamed field NUMBERS to numbers.
   //variable already final //KG
   private final int[] numbers = new int[12];
@@ -16,11 +19,11 @@ public class DefaultCountingOutRhymer {
   }
 
   public boolean callCheck() {
-    return total == -1;
+    return total == CALL_CHECK;
   }
 
   public boolean isFull() {
-    return total == 11;
+    return total == FULL;
   }
 
   protected int peekaboo() {
